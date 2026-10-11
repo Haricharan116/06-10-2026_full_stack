@@ -1,0 +1,23 @@
+react-mongodb-crud/
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+|    |----models
+|	|....student.js
+│
+└── frontend/
+    ├── src/
+    │   ├── App.jsx
+    │   ├── App.css
+    │   └── main.jsx
+    ├── package.json
+    └── index.html
+
+| Operation | Method | URL                 |
+| --------- | ------ | ------------------- |
+| Create    | POST   | `/api/students`     |
+| Read      | GET    | `/api/students`     |
+| Update    | PUT    | `/api/students/:id` |
+| Delete    | DELETE | `/api/students/:id` |
